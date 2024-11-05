@@ -7,14 +7,14 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #a51080;
-  padding: 50px 100px 0px;
-  gap: 15px;
+  padding: 3rem 6rem 0;
+  gap: 1rem;
   text-align: center;
 
   @media (max-width: 1024px) {
     flex-direction: column;
     align-items: center;
-    padding: 30px 20px 0;
+    padding: 2rem 1rem 0;
   }
 
   h1 {
@@ -28,7 +28,7 @@ body {
 
   .links-wrapper {
     display: flex;
-    gap: 30px;
+    gap: 2rem;
     list-style: none;
     flex-wrap: wrap;
 
@@ -46,20 +46,20 @@ body {
 
 /* section 1 */
 .section-1-container {
-  padding: 100px;
+  padding: 6rem;
   background-color: #a51080;
 
   @media (max-width: 1024px) {
-    padding: 50px 30px;
+    padding: 2rem 1rem;
   }
 }
 
 .hero-wrapper {
   display: flex;
-  gap: 100px;
+  gap: 6rem;
 
   @media (max-width: 1024px) {
-    gap: 30px;
+    gap: 2rem;
     flex-direction: column;
   }
 
@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    gap: 30px;
+    gap: 2rem;
 
     @media (max-width: 1024px) {
       order: 1;
@@ -155,15 +155,15 @@ body {
 
 /* section 3 */
 .section-3-container {
-  padding: 100px;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: #e5e7eb;
-  gap: 10px;
+  gap: 0.6rem;
 
   @media (max-width: 768px) {
-    padding: 30px;
+    padding: 2rem;
   }
 
   .quote {
@@ -184,29 +184,29 @@ body {
 
 /* section 4 */
 .section-4-container {
-  padding: 100px 50px;
+  padding: 6rem 3rem;
   display: flex;
   justify-content: center;
   background-color: #ffff;
 
   @media (max-width: 768px) {
-    padding: 30px;
+    padding: 1rem;
   }
 
   .signup-wrapper {
     display: flex;
     background-color: #3695ad;
     width: 800px;
-    gap: 20px;
+    gap: 1rem;
     justify-content: space-between;
 
-    padding: 20px;
+    padding: 1rem;
     border-radius: 10px;
     color: #e5e7eb;
 
     @media (max-width: 768px) {
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
     }
 
@@ -214,11 +214,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 6px;
-
-      @media (max-width: 1024px) {
-        gap: 15px;
-      }
+      gap: 0.5rem;
 
       h2 {
         font-size: 1.5rem;
@@ -231,7 +227,7 @@ body {
     color: #e5e7eb;
     border: none;
     border-radius: 8px;
-    padding: 1em;
+    padding: 1rem;
     background-color: #a51080;
   }
 }
