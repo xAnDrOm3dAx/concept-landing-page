@@ -8,7 +8,7 @@ Technologies Used: HTML & CSS
 
 Introduction: A concept page that I designed and built to showcase my responsive design skills
 
-Live URL: https://xandrom3dax.github.io/landing-page-2/
+Live URL: https://xandrom3dax.github.io/concept-landing-page/
 
 Images used in this project:
 
