@@ -126,16 +126,40 @@ body {
   }
 
   .cards-wrapper {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 
     @media (min-width: 992px) {
       grid-auto-rows: 1fr;
+    } */
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    @media (min-width: 480px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (min-width: 928px) {
+      display: flex;
+      flex-direction: row;
+    }
+
   }
 
   .card-image-wrapper {
+    height: 100%;
+
     >a {
       display: flex;
       height: 100%;
